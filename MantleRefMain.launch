@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/mantle-ref-launcher/src/main/java/com/about/mantle/reference/MantleRefMain.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        <mapEntry key="AWS_PROFILE" value="about-dev"/>
+        <mapEntry key="AWS_REGION" value="us-east-1"/>
+    </mapAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="mantle-ref.mantle-ref-launcher.main"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.about.mantle.reference.MantleRefMain"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-server -Xmx1024m -Dcom.sun.management.jmxremote -Denvironment=k8s-globe-core-dev -Dapplication=mantle-ref -Dconsul.enabled=true -Dconsul.url=https://consul-qa.a-ue1.dotdash.com:8500 -Dconsul.token=dev -Dcia.enabled=false -Dservername=localhost"/>
+</launchConfiguration>

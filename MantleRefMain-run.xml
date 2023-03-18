@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.5" class="java.beans.XMLDecoder">
+ <object class="com.example.demo.example.launch.LaunchMain">
+  <void property="booleanAttribute">
+   <string>org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD</string>
+  </void>
+  <void property="launchConfiguration">
+   <string>org.eclipse.jdt.launching.localJavaApplication</string>
+  </void>
+  <void property="listAttribute">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="com.example.demo.example.launch.ListAttribute">
+      <void property="listAttribute">
+       <string>org.eclipse.debug.core.MAPPED_RESOURCE_PATHS</string>
+      </void>
+      <void property="listEntry">
+       <string>/mantle-ref-launcher/src/main/java/com/about/mantle/reference/MantleRefMain.java</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="mapAttribute">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="com.example.demo.example.launch.MapAttribute">
+      <void property="mapAttribute">
+       <string>org.eclipse.debug.core.environmentVariables</string>
+      </void>
+      <void property="mapEntry">
+       <string>us-east-1</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="stringAttribute">
+   <string>org.eclipse.jdt.launching.CLASSPATH_PROVIDER</string>
+  </void>
+ </object>
+</java>

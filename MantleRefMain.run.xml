@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="MantleRefMain" type="Application" factoryName="Application" nameIsGenerated="true">
+        <envs>
+            <env name="AWS_PROFILE" value="about-dev" />
+            <env name="AWS_REGION" value="us-east-1" />
+        </envs>
+        <option name="MAIN_CLASS_NAME" value="com.about.mantle.reference.MantleRefMain" />
+        <module name="mantle-ref.mantle-ref-launcher.main" />
+        <option name="VM_PARAMETERS" value="-server -Xmx1024m -Dconsul.enabled=true -Dconsul.url=https://consul-qa.a-ue1.dotdash.com:8500 -Dconsul.token=dev -Dcom.sun.management.jmxremote -Denvironment=k8s-stable -Dapplication=mantle-ref -Dservername=localhost" />
+        <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+        <extension name="coverage">
+            <pattern>
+                <option name="PATTERN" value="com.about.mantle.reference.*" />
+                <option name="ENABLED" value="true" />
+            </pattern>
+        </extension>
+        <method v="2">
+            <option name="Make" enabled="true" />
+        </method>
+    </configuration>
+</component>
